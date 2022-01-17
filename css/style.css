@@ -104,18 +104,16 @@ body{
 }
 
 /* Make responsive */
-
   
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 350px) {
     .container{
         height: 100vh;
         background-size: cover;
         overflow: hidden;
         flex-direction: column-reverse;
-        
     }
-    .header-section{
-        margin-top: 50px;
+    .header-section {
+        margin-top: 50px; 
     }
     
     .search-input{
@@ -135,14 +133,6 @@ body{
     }
 
 }
-
-@media only screen and (min-width: 992px) {
-    .container{
-       
-    }
-}
-
-
     
 @media only screen and (min-width: 1200px) {
     .container{
